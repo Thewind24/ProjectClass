@@ -1,0 +1,105 @@
+
+    
+
+
+.header{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #01051e;
+    color: white;
+     padding-left: 120px;
+    padding-right: 120px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 31, 80); 
+padding: 10px 0;
+
+}
+.logo{
+    font-weight: bolder;
+    color: blue;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.nav-btn, .btn {
+background-color: #ff7d3b;
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+border: transparent;
+
+}
+
+.her-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+
+}
+
+.hero-text{
+    width: 500px;
+}
+
+.hero-text > p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.hero-ing > ing{
+    width: 300px;
+}
+
+.feature-section{
+    background-color: rgb(11, 11, 43);
+    padding: 30px;
+}
+
+.card-group{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.feature-text{
+    text-align: center;
+    margin: 80px;
+
+}
+
+.card{
+    padding: 20px 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.card:hover{
+    background-color: #01051e;
+}
+
+.myicon {
+    background-color: #ff7d3b;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
